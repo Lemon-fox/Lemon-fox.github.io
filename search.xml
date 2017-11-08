@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[2]]></title>
+    <url>%2F2017%2F11%2F08%2F2%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[1]]></title>
+    <url>%2F2017%2F11%2F08%2F1%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2017%2F11%2F08%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux Vi/Vim删除：一行，一个字符，单词，每行第一个字符 命令]]></title>
+    <url>%2F2017%2F10%2F08%2FLinux%20Vi-Vim%E5%88%A0%E9%99%A4%EF%BC%9A%E4%B8%80%E8%A1%8C%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%EF%BC%8C%E5%8D%95%E8%AF%8D%EF%BC%8C%E6%AF%8F%E8%A1%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%20%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[Linux Vi/Vim删除：一行，一个字符，单词，每行第一个字符 命令 快捷键 功能 dw 删除当前光标下的字符 d$ 删除光标之后的单词剩余部分。 dd 删除光标之后的该行剩余部分。 c 删除当前行。 cc 功能和d相同，区别在于完成删除操作后进入INSERT MODE 删除每行第一个字符 :%s/^.//g]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+</search>
