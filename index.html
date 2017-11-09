@@ -405,6 +405,17 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/08/2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/11/08/2/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -546,6 +557,17 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/08/1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/11/08/1/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -664,6 +686,17 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/11/08/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/11/08/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -814,6 +847,17 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/10/08/Linux Vi-Vim删除：一行，一个字符，单词，每行第一个字符 命令/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/10/08/Linux Vi-Vim删除：一行，一个字符，单词，每行第一个字符 命令/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -1019,12 +1063,6 @@
                       <i class="fa fa-fw fa-豆瓣"></i>豆瓣</a>
                 </span>
               
-                <span class="links-of-author-item">
-                  <a href="http://www.zhihu.com/people/your-user-name" target="_blank" title="知乎">
-                    
-                      <i class="fa fa-fw fa-知乎"></i>知乎</a>
-                </span>
-              
             
           </div>
 
@@ -1199,6 +1237,14 @@
 
   
 
+    
+      <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
+    
+
+    
+
+  
+
 
 
 
@@ -1226,6 +1272,26 @@
 
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'VaeR7aJpnQ2raN38AM278YLi-gzGzoHsz',
+        appKey: 'MdsB3SgjAEbfzXM2g6kF3N0p',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
